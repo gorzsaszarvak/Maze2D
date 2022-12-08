@@ -1,0 +1,47 @@
+{
+    "CollectGoals": {
+        "checkpoints": [
+            {
+                "steps": 499999,
+                "file_path": "results\\BetterPerformance4\\CollectGoals\\CollectGoals-499999.onnx",
+                "reward": -4.963817097415507,
+                "creation_time": 1670445180.364442,
+                "auxillary_file_paths": [
+                    "results\\BetterPerformance4\\CollectGoals\\CollectGoals-499999.pt"
+                ]
+            },
+            {
+                "steps": 999999,
+                "file_path": "results\\BetterPerformance4\\CollectGoals\\CollectGoals-999999.onnx",
+                "reward": -4.957117925704313,
+                "creation_time": 1670446822.1816816,
+                "auxillary_file_paths": [
+                    "results\\BetterPerformance4\\CollectGoals\\CollectGoals-999999.pt"
+                ]
+            },
+            {
+                "steps": 1000018,
+                "file_path": "results\\BetterPerformance4\\CollectGoals\\CollectGoals-1000018.onnx",
+                "reward": -4.957181976599452,
+                "creation_time": 1670446822.2892098,
+                "auxillary_file_paths": [
+                    "results\\BetterPerformance4\\CollectGoals\\CollectGoals-1000018.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000018,
+            "file_path": "results\\BetterPerformance4\\CollectGoals.onnx",
+            "reward": -4.957181976599452,
+            "creation_time": 1670446822.2892098,
+            "auxillary_file_paths": [
+                "results\\BetterPerformance4\\CollectGoals\\CollectGoals-1000018.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

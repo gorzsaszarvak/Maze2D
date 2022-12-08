@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1670502759",
+        "python_version": "3.7.15 (default, Nov 24 2022, 18:44:54) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\Programs\\Anaconda\\envs\\unity\\Scripts\\mlagents-learn .\\config.yaml --run-id=RayCast1 --resume",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.6",
+        "end_time_seconds": "1670502764"
+    },
+    "total": 5.0021181,
+    "count": 1,
+    "self": 0.008994799999999081,
+    "children": {
+        "run_training.setup": {
+            "total": 0.09415320000000005,
+            "count": 1,
+            "self": 0.09415320000000005
+        },
+        "TrainerController.start_learning": {
+            "total": 4.8989701000000005,
+            "count": 1,
+            "self": 0.00036210000000114206,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 4.8985982,
+                    "count": 1,
+                    "self": 4.8985982
+                },
+                "trainer_threads": {
+                    "total": 2.099999999671809e-06,
+                    "count": 1,
+                    "self": 2.099999999671809e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 7.699999999388751e-06,
+                    "count": 1,
+                    "self": 7.699999999388751e-06
+                }
+            }
+        }
+    }
+}
