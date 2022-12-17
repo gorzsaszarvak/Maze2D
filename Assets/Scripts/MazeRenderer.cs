@@ -25,10 +25,11 @@ public class MazeRenderer : MonoBehaviour
     [SerializeField]
     private Transform goalPrefab = null;
 
-    private List<GameObject> goals = new List<GameObject>();
+    public List<GameObject> goals = new List<GameObject>();
 
     public WallState[,] maze;
     private GameObject[,,] walls;
+
 
     public void GenerateMaze(Transform parent)
     {
@@ -48,6 +49,14 @@ public class MazeRenderer : MonoBehaviour
         goal.SetActive(false);
     }
 
+    public void ResetGoals()
+    {
+        foreach(GameObject goal in goals) 
+        {
+            goal.SetActive(true);
+        }
+    }
+
     private void Draw(WallState[,] maze, Transform parent)
     {
         for (int i = 0; i < width; ++i)
@@ -60,7 +69,7 @@ public class MazeRenderer : MonoBehaviour
                 if (!((i == width / 2) && (j == height / 2)))
                 {
                     var goal = Instantiate(goalPrefab, parent);
-                    goal.localPosition = new Vector2(i - width / 2, j - height / 2);
+                    goal.localPosition = new Vector3(i - width / 2, j - height / 2);
                     goals.Add(goal.gameObject);
                 }
 
@@ -83,8 +92,7 @@ public class MazeRenderer : MonoBehaviour
                 walls[i, j, 3] = bottomWall.gameObject;
 
             }
-
-        }
+        }        
     }
 
     private void ReDraw(WallState[,] maze)

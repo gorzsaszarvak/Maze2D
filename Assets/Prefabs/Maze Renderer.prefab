@@ -44,8 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58b1d43cd5fb80940bc6c3bb5549da58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 11
-  height: 11
+  width: 5
+  height: 5
   size: 1
   wallPrefab: {fileID: 4739998155753885387, guid: 6f5ac0640096ef6449c32f48c7bbe86c, type: 3}
   goalPrefab: {fileID: 1207470919855800340, guid: feec68e4a6395104ea08bd902b379cc4, type: 3}
