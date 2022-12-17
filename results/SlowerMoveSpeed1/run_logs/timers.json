@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1670618953",
+        "python_version": "3.7.15 (default, Nov 24 2022, 18:44:54) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\Programs\\Anaconda\\envs\\unity\\Scripts\\mlagents-learn .\\config.yaml --run-id=SlowerMoveSpeed1",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.6",
+        "end_time_seconds": "1670618973"
+    },
+    "total": 20.128044199999998,
+    "count": 1,
+    "self": 10.008826199999998,
+    "children": {
+        "run_training.setup": {
+            "total": 0.09116180000000007,
+            "count": 1,
+            "self": 0.09116180000000007
+        },
+        "TrainerController.start_learning": {
+            "total": 10.0280562,
+            "count": 1,
+            "self": 0.0003873999999974842,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 10.027659100000001,
+                    "count": 1,
+                    "self": 10.027659100000001
+                },
+                "trainer_threads": {
+                    "total": 1.4000000003733248e-06,
+                    "count": 1,
+                    "self": 1.4000000003733248e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 8.30000000107134e-06,
+                    "count": 1,
+                    "self": 8.30000000107134e-06
+                }
+            }
+        }
+    }
+}

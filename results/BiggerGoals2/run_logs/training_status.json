@@ -1,0 +1,47 @@
+{
+    "CollectGoals": {
+        "checkpoints": [
+            {
+                "steps": 167011,
+                "file_path": "results\\BiggerGoals2\\CollectGoals\\CollectGoals-167011.onnx",
+                "reward": -27.693243258708232,
+                "creation_time": 1671292001.635132,
+                "auxillary_file_paths": [
+                    "results\\BiggerGoals2\\CollectGoals\\CollectGoals-167011.pt"
+                ]
+            },
+            {
+                "steps": 499977,
+                "file_path": "results\\BiggerGoals2\\CollectGoals\\CollectGoals-499977.onnx",
+                "reward": -47.4277778201633,
+                "creation_time": 1671292896.9742324,
+                "auxillary_file_paths": [
+                    "results\\BiggerGoals2\\CollectGoals\\CollectGoals-499977.pt"
+                ]
+            },
+            {
+                "steps": 662253,
+                "file_path": "results\\BiggerGoals2\\CollectGoals\\CollectGoals-662253.onnx",
+                "reward": -250.0,
+                "creation_time": 1671293258.0646942,
+                "auxillary_file_paths": [
+                    "results\\BiggerGoals2\\CollectGoals\\CollectGoals-662253.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 662253,
+            "file_path": "results\\BiggerGoals2\\CollectGoals.onnx",
+            "reward": -250.0,
+            "creation_time": 1671293258.0646942,
+            "auxillary_file_paths": [
+                "results\\BiggerGoals2\\CollectGoals\\CollectGoals-662253.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

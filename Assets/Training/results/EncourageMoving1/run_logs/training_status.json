@@ -1,0 +1,47 @@
+{
+    "CollectGoals": {
+        "checkpoints": [
+            {
+                "steps": 499963,
+                "file_path": "results\\EncourageMoving1\\CollectGoals\\CollectGoals-499963.onnx",
+                "reward": -11.870571597417195,
+                "creation_time": 1670616997.646042,
+                "auxillary_file_paths": [
+                    "results\\EncourageMoving1\\CollectGoals\\CollectGoals-499963.pt"
+                ]
+            },
+            {
+                "steps": 999885,
+                "file_path": "results\\EncourageMoving1\\CollectGoals\\CollectGoals-999885.onnx",
+                "reward": -10.968759988629541,
+                "creation_time": 1670617878.0463324,
+                "auxillary_file_paths": [
+                    "results\\EncourageMoving1\\CollectGoals\\CollectGoals-999885.pt"
+                ]
+            },
+            {
+                "steps": 1000073,
+                "file_path": "results\\EncourageMoving1\\CollectGoals\\CollectGoals-1000073.onnx",
+                "reward": -10.982977405759215,
+                "creation_time": 1670617878.1633584,
+                "auxillary_file_paths": [
+                    "results\\EncourageMoving1\\CollectGoals\\CollectGoals-1000073.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000073,
+            "file_path": "results\\EncourageMoving1\\CollectGoals.onnx",
+            "reward": -10.982977405759215,
+            "creation_time": 1670617878.1633584,
+            "auxillary_file_paths": [
+                "results\\EncourageMoving1\\CollectGoals\\CollectGoals-1000073.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
