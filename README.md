@@ -1,3 +1,3 @@
-# Maze2D - Unity MLAgents project
+# Maze2D - Unity ML-Agents project
 
-Agent has to navigate a randomly generated maze with the objective of collecting as many "goals" as possible.
+Agent trained with reinforcement learning has to navigate a randomly generated maze with the objective of collecting as many "goals" as possible.
